@@ -1,10 +1,10 @@
 ---
-name: 'User Stories: '
+name: API
 about: Describe this issue template's purpose here.
-title: 'User Story:'
+title: 'API: '
 labels: ''
 assignees: nicolemne
 
 ---
 
-As a user I can __ so that I can __
+
