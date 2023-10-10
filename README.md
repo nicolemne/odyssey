@@ -388,20 +388,14 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing performed.
 
 ## **Credits**
 
-- [XXX](XXX)
+#### Django REST Models
+- [Readthedocs Django REST Models](https://readthedocs.org/projects/django-rest-models/downloads/pdf/latest/)
 
-#### **UploadPost view:**
+#### Django REST Serializers
+- [Django REST Framework](https://www.django-rest-framework.org/api-guide/serializers/)
+- [Django REST Framework Tutorials](https://www.django-rest-framework.org/tutorial/1-serialization/)
+- [Django REST Framework Relations](https://www.django-rest-framework.org/api-guide/relations/)
 
-- [XXX](XXX)
-
-### **Code Used**
-
-From the "Django REST & Moments" project: 
-- XXX
-
-### **Content**
-
-I take great pride in stating that I have personally developed all the code in this project, demonstrating my dedication and commitment to its creation. While working on this project, I utilized various resources, including those acknowledged in the Credits and Code Used section, which provided valuable insights and inspiration.
   
 ###  **Acknowledgments**
 
