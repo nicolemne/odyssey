@@ -396,6 +396,10 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing performed.
 - [Django REST Framework Tutorials](https://www.django-rest-framework.org/tutorial/1-serialization/)
 - [Django REST Framework Relations](https://www.django-rest-framework.org/api-guide/relations/)
 
+#### Other
+
+- [Aggregation from Django documentation](https://docs.djangoproject.com/en/4.2/topics/db/aggregation/)
+
   
 ###  **Acknowledgments**
 
