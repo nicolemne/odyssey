@@ -16,7 +16,7 @@ class Rating(models.Model):
     def get_rating_text(self):
         if self.average_rating >= 4.5:
             return 'Excellent'
-        elif self average_rating >= 3.5:
+        elif self.average_rating >= 3.5:
             return 'Good'
         elif self.average_rating >= 2.5:
             return 'Average'
