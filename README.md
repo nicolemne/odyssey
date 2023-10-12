@@ -399,6 +399,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all testing performed.
 #### Other
 
 - [Aggregation from Django documentation](https://docs.djangoproject.com/en/4.2/topics/db/aggregation/)
+- [Login required decorator from Django documentation](https://docs.djangoproject.com/en/4.2/topics/auth/default/)
 
   
 ###  **Acknowledgments**

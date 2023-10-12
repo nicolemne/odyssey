@@ -1,4 +1,5 @@
-from rest_framework import generics, permissions
+from django.contrib.auth.decorators import login_required
+from rest_framework import generics, permissions, status
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
 from .models import Rating
@@ -13,6 +14,7 @@ class RatePostView(generics.CreateAPIView):
     serializer_class = RatingSerializer
     permission_classes = [permissions.IsAuthenticated]
 
+    @login_required  # Ensure the user is logged in
     def create(self, request, *args, **kwargs):
         post_id = self.kwargs['pk']
         post = get_object_or_404(Post, pk=post_id)
@@ -37,4 +39,4 @@ class RatePostView(generics.CreateAPIView):
             post.average_rating = 0.0
         post.save()
 
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
