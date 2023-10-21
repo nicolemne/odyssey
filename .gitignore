@@ -2,8 +2,8 @@
 
 # dependencies
 node_modules/
-env_file.py
 env.py
+env_file.py
 
 core.Microsoft*
 core.mongo*
