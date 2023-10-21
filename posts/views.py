@@ -24,11 +24,11 @@ class PostList(generics.ListCreateAPIView):
     ]
     filterset_fields = [
         # user feed
-        'owner__followed__owner__profile', # 1
+        'owner__followed__owner__profile',
         # user liked posts
-        'likes__owner__profile', # 2
+        'likes__owner__profile',
         # user posts
-        'owner__profile', # 3
+        'owner__profile',
     ]
     search_fields = [
         'owner__username',
@@ -36,7 +36,7 @@ class PostList(generics.ListCreateAPIView):
 
     ]
     ordering_fields = [
-        'likes_count', 
+        'likes_count',
         'comments_count',
         'likes__created_at',
     ]
