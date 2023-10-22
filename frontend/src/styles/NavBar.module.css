@@ -10,3 +10,9 @@
 .Active i {
     color: #2142b2;
   }
+
+.NavBar img {
+  height: 125px;
+  width: 125px;
+  margin: 0;
+}
