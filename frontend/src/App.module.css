@@ -1,6 +1,6 @@
 .App {
   font-family: "DM Sans", sans-serif;
-  background-color: #f8f8f8;
+  background-color: #fff;
   min-height: 100vh;
 }
 
@@ -9,7 +9,7 @@
 }
 
 a {
-  color: #ffffff;
+  color: #555555;
   transition: color ease-in-out 0.3s;
 }
 
@@ -18,18 +18,19 @@ a:hover {
 }
 
 a:hover i {
-  color: #06cca0;
+  color: #2142b2;
   transition: color ease-in-out 0.3s;
 }
 
 i {
-  color: #fff;
-  font-size: 1.4rem;
-  padding: 1px;
+  color: #cfced3;
+  font-size: 1.6rem;
+  padding: 7px;
+  vertical-align: middle;
 }
 
 i:hover {
   cursor: pointer;
   transition: color ease-in-out 0.3s;
-  color: #06cca0;
+  color: #2142b2;
 }
