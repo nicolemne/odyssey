@@ -7,13 +7,12 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
-import signupimage from "../../assets/signup.png";
-
-import axios from "axios";
 
 import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
+
+import axios from "axios";
 
 
 const SignUpForm = () => {
@@ -128,7 +127,7 @@ const SignUpForm = () => {
       >
         <Image
           className={`${appStyles.FillerImage}`}
-          src={signupimage}
+          src={"https://res.cloudinary.com/dcxn0te12/image/upload/v1698085524/signup_pj0sts.png"}
         />
       </Col>
     </Row>
