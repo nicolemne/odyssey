@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from "../assets/logo.png";
-import styles from "../styles/NavBar.module.css";
 import { NavLink } from "react-router-dom";
+
+import styles from "../styles/NavBar.module.css";
+import logo from "../assets/logo.png";
+
 import { CurrentUserContext } from "../App";
 
 const NavBar = () => {
