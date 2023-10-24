@@ -16,8 +16,10 @@ import appStyles from "../../App.module.css";
 
 import axios from "axios";
 
+import axios from "axios";
+
 function SignInForm() {
-  const setCurrentUser = useContext(SetCurrentUserContext);
+  const setCurrentUser = useSetCurrentUser();
 
   const [signInData, setSignInData] = useState({
     username: "",
